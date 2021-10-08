@@ -1,0 +1,75 @@
+@charset "utf-8";
+*{box-sizing:border-box;}
+html, body{margin:0; padding:0;}
+h1, h2, h3, h4, h5, h6, p{margin:0;}
+ul, ol{margin:0; padding:0; list-style:none;}
+a{text-decoration:none;}
+
+#weather{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0 0;
+    background-color: #eee;
+}
+#weather ul{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#weather ul li{
+    width: calc(100% / 3 - 20px);
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 6px rgba(0,0,0,0.2);
+    margin-bottom: 20px;
+}
+#weather ul li .top{
+    padding: 20px 0;
+    background-color: #6688ee;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#weather ul li .top > div{
+    width: 50%;
+    padding: 0 20px;
+}
+#weather ul li .top .cur_icon{
+    font-size: 72px;
+    text-align: center;
+}
+#weather ul li .top .info{
+    text-align: right;
+}
+#weather ul li .top .info .temp{
+    font-size: 16px;
+}
+#weather ul li .top .info .temp span{
+    font-size: 24px;
+}
+#weather ul li .top .info h4{
+    font-size: 24px;
+}
+#weather ul li .bottom{
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#weather ul li .bottom > div{
+    width: calc(100% / 3 - 20px);
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+}
+#weather ul li .bottom > div > i{
+    font-size: 18px;
+    color: #6688ee;
+}
+#weather ul li .bottom > div > p{
+    line-height: 1.8;
+    color: #555;
+}

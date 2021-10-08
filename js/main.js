@@ -12,7 +12,7 @@ $(document).ready(function(){
     //city.unshift("Busan"); => city = ["Busan", "Seoul"]
     console.log(city);
 
-    var myKey = "307f00c8a42e069112d8d474783b2935"
+    var myKey = "784643bf8763674861592b3e8a4a5120"
 
     var state_icon = "";    //날씨 아이콘의 이름을 초기 변수로 구성 (전역 변수) - https://erikflowers.github.io/weather-icons/ 사이트의 날씨 이미지와 매칭되는 클래스명을 담음
 
